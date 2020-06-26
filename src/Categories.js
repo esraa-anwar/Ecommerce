@@ -15,7 +15,7 @@ import {Route} from "react-router-dom"*/
             <nav className="nav.wrapper grey darken-1 "> 
             <div className="container " >
             <ul className="">
-            <li><NavLink to="/All">All category</NavLink> </li>
+            <li><NavLink to="/All">All Categories</NavLink> </li>
             <li><NavLink to="/Fashion">fashion</NavLink> </li>
             <li> <NavLink to="/Supermarket">Supermarket</NavLink></li> 
                <li><NavLink to="Mobile">Mobile</NavLink> </li>
@@ -31,11 +31,3 @@ import {Route} from "react-router-dom"*/
 }
 
 export default Categories
-/*<li> <NavLink to="">All Categories</NavLink> </li>
-              
-            <li> <NavLink to=""><Route path="" component={Supermarket}>Supermarket</Route></NavLink></li> 
-               <li><NavLink to=""><Route path="" component={Mobile}>Mobile</Route></NavLink> </li>
-               <li><NavLink to=""><Route path="" component={Tv}>Tv</Route></NavLink> </li>
-               <li><NavLink to=""><Route path="" component={Home}>Home</Route></NavLink> </li>
-              <li> <NavLink to=""><Route path="" component={Toys}>Toys</Route></NavLink> </li>
-               <li><NavLink to=""><Route path="" component={Sports}>Sports</Route></NavLink> </li> */

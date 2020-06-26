@@ -13,7 +13,7 @@ import {Route} from "react-router-dom"*/
     render() {
         return (
             
-            <div className="container " >
+            <div  className="alert alert-dark" role="alert" >
             <ul className="">
            
             <li><NavLink to="/Fashion">fashion</NavLink> </li>

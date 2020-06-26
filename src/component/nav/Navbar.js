@@ -6,7 +6,7 @@ import Auth from './Auth'
 const Navbar=()=>{
 
 return(
-    <nav className="nav.wrapper blue darken-1 ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
 <div className="container " >
 
 <Link to="" className="brand-logo" className="left" >Soaq</Link>

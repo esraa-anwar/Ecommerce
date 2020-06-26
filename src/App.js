@@ -10,6 +10,9 @@ import Toys  from './Toys'
 import Supermarket  from './Supermarket'
 import Home  from './Home'
 import Sports  from './Sports'
+import Women from './Women'
+import Men from './Men'
+import Bags from './Bags'
  class App extends Component {
   render() {
     return (
@@ -18,10 +21,13 @@ import Sports  from './Sports'
       <div className="App">
       <Navbar/>
       <Categories/>
+      <Route path="/Bags" component={Bags}/>
+      <Route path="/Men" component={Men}/>
+      <Route path="/Women" component={Women}/>
       <Route path="/All" component={All}/>
       <Route path="/Fashion" component={Fashion}/>
       <Route path="/Supermarket" component={Supermarket}/>
-      <Route path="/Fashion" component={Fashion}/>
+      
       <Route path="/Mobile" component={Mobile}/>
       <Route path="/Tv" component={Tv}/>
       <Route path="/Home" component={Home}/>
