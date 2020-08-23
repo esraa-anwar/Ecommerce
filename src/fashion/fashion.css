@@ -1,0 +1,23 @@
+.roo{
+  text-align: center;
+  border: 3px solid black;
+margin-left: 40px;
+margin-right: 50px;
+padding: 10px;
+  background-color: black;
+}
+.icon{
+
+  font-size:30px;
+  color : yellow;
+  stroke: black;
+  stroke-width: 30;
+  border: black;
+}
+.card{
+  padding-left: 50 px;
+background-color: yellow;
+width: 150px;
+height: 300px;
+box-shadow:1px 1px 1px 2px yellow , 0 0 25px yellow, 0 0 5px yellow;
+}

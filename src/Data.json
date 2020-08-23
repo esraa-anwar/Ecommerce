@@ -1,0 +1,236 @@
+{
+    "women": [
+    
+   {
+   
+      "statue":"sale",
+    "price":"500",
+    "name":"new style",
+    "image":"/img/women-large.jpg"
+  },
+  {
+  
+  "statue":"",
+  "price":"55",
+  "name":"shirt",
+  "image":"/img/product-3.jpg"
+  },
+  {
+    
+    "statue":"",
+    "price":"650",
+    "name":"blues",
+    "image":"/img/product-2.jpg"
+}
+  
+]
+,
+
+"men": [
+ 
+    {
+    
+       "statue":"sale",
+     "price":"150",
+     "name":"new style",
+     "image":"/img/man-2.jpg"
+   },
+   {
+   
+   "statue":"",
+   "price":"55",
+   "name":"shirt",
+   "image":"/img/product-3.jpg"
+   },
+   {
+     
+     "statue":"",
+     "price":"650",
+     "name":"shirt",
+     "image":"/img/product-8.jpg"
+ }
+   
+ ],
+ "bags": [
+  {
+  
+     "statue":"sale",
+   "price":"200",
+   "name":"back-bag",
+   "image":"/img/man-1.jpg"
+ },
+ {
+ 
+ "statue":"",
+ "price":"55",
+ "name":"bag",
+ "image":"/img/product-3.jpg"
+ },
+ {
+   
+   "statue":"",
+   "price":"650",
+   "name":"cross bag",
+   "image":"/img/women-4.jpg"
+}
+ 
+], 
+
+
+"oppo": [
+  {
+  
+     "statue":"sale",
+   "price":"22000",
+   "name":"ipone",
+   "image":"/img/mwlv2ba_2.jpg"
+ },
+ {
+ 
+ "statue":"",
+ "price":"22255",
+ "name":"iphone",
+ "image":"/img/iphone-11-pro-select-2019-family.jpg"
+ },
+ {
+   
+   "statue":"",
+   "price":"16000",
+   "name":"iphone",
+   "image":"/img/item_L_68312955_87314b5474270.jpg"
+}
+],
+
+
+"Iphone": [
+  {
+  
+     "statue":"sale",
+   "price":"22000",
+   "name":"ipone",
+   "image":"/img/mwlv2ba_2.jpg"
+ },
+ {
+ 
+ "statue":"",
+ "price":"22255",
+ "name":"iphone",
+ "image":"/img/iphone-11-pro-select-2019-family.jpg"
+ },
+ {
+   
+   "statue":"",
+   "price":"16000",
+   "name":"iphone",
+   "image":"/img/item_L_68312955_87314b5474270.jpg"
+}
+ 
+],
+"sumsung": [
+ {
+  
+     "statue":"sale",
+   "price":"22200",
+   "name":"sumsung ",
+   "image":"/img/download.jpg"
+ },
+ {
+ 
+ "statue":"",
+ "price":"55",
+ "name":"sumsung",
+ "image":"/img/download (1).jpg"
+ },
+ {
+   
+   "statue":"",
+   "price":"650",
+   "name":"sumsung note11",
+   "image":"/img/Samsung-Note-10-Plus-Silicone-Case-5.jpg"
+}],
+"tv": [
+  
+  {
+  
+     "statue":"sale",
+   "price":"7000",
+   "name":"lg tv",
+   "image":"/img/lg_smart_tv_55uk6400pvc_front.jpg"
+ },
+ {
+ 
+ "statue":"",
+ "price":"2255",
+ "name":"sumsung",
+ "image":"/img/photo_d06cae40-dd72-4304-9ef1-ad02a344a635.jpg"
+ },
+ {
+   
+   "statue":"",
+   "price":"6500",
+   "name":"sony",
+   "image":"/img/images.jpg"
+}
+ 
+],
+"home": [
+  {
+  
+     "statue":"sale",
+   "price":"2000",
+   "name":"sofa",
+   "image":"/img/download (6).jpg"
+ },
+ {
+ 
+ "statue":"",
+ "price":"2255",
+ "name":"table",
+ "image":"/img/download (5).jpg"
+ },
+ {
+   
+   "statue":"",
+   "price":"6500",
+   "name":"sofa",
+   "image":"/img/download (8).jpg"
+}
+ 
+],
+
+"supermarket": [
+  {
+    "id":"7"
+    },
+  {
+  
+     "statue":"",
+   "price":"20",
+   "name":"oill",
+   "image":"/img/زيت-صنى-3-لتر.jpeg"
+ },
+ {
+ 
+ "statue":"",
+ "price":"22",
+ "name":"catchup",
+ "image":"/img/catchup.png"
+ },
+ {
+   
+   "statue":"",
+   "price":"25",
+   "name":"juice",
+   "image":"/img/item_L_36651132_143605068.jpg"
+}
+ 
+]
+
+
+
+}
+
+
+
+
+

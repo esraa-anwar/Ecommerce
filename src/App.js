@@ -1,38 +1,49 @@
 import React, { Component } from 'react'
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
-import Navbar from './component/nav/Navbar'
-import All from './All'
-import Categories from './Categories'
-import Fashion from './Fashion'
-import Tv from './Tv'
-import Mobile from './Mobile'
-import Toys  from './Toys'
-import Supermarket  from './Supermarket'
-import Home  from './Home'
-import Sports  from './Sports'
-import Women from './Women'
-import Men from './Men'
-import Bags from './Bags'
+import Navba from './component/nav/Navba'
+import All from './component/Links/All'
+import Categories from './component/Links/Categories'
+import"bootstrap/dist/css/bootstrap.min.css"
+import Fashion from './fashion/Fashion'
+import Tv from './component/Links/Tv'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
+import Toys  from './component/Links/Toys'
+import Super  from './component/Links/Super'
+import Home  from './component/Links/Home'
+import Sports  from './component/Links/Sports'
+import Women from './fashion/Women'
+import Men from './fashion/Men'
+import Bags from './fashion/Bags'
+import Mobile from './mobile/Mobile'
+import Iphone from './mobile/Iphone'
+import Oppo from './mobile/Oppo'
+import Sumsung from './mobile/Sumsung'
+import Pic from './component/nav/Pic'
+import"./customs.scss"
  class App extends Component {
   render() {
     return (
       
       <Router>
       <div className="App">
-      <Navbar/>
-      <Categories/>
-      <Route path="/Bags" component={Bags}/>
-      <Route path="/Men" component={Men}/>
-      <Route path="/Women" component={Women}/>
-      <Route path="/All" component={All}/>
-      <Route path="/Fashion" component={Fashion}/>
-      <Route path="/Supermarket" component={Supermarket}/>
-      
-      <Route path="/Mobile" component={Mobile}/>
-      <Route path="/Tv" component={Tv}/>
-      <Route path="/Home" component={Home}/>
-      <Route path="/Toys" component={Toys}/>
-      <Route path="/Sports" component={Sports}/>
+      <Navba/>
+    <Categories/>
+      <Pic/>
+      <Route path="/fashion/Bags" component={Bags}/>
+      <Route path="/fashion/Men" component={Men}/>
+      <Route path="/mobile/Oppo" component={Oppo}/>
+      <Route path="/fashion/Women" component={Women}/>
+      <Route path="/component/links/All" component={All}/>
+      <Route path="/fashion/Fashion" component={Fashion}/>
+      <Route path="/component/links/Super" component={Super}/>
+      <Route path="/mobile/Iphone" component={Iphone}/>
+      <Route path="/mobile/Sumsung" component={Sumsung}/>
+      <Route path="/mobile/Mobile" component={Mobile}/>
+      <Route path="/component/links/Tv" component={Tv}/>
+      <Route path="/component/links/Home" component={Home}/>
+      <Route path="/component/links/Toys" component={Toys}/>
+      <Route path="/component/links/Sports" component={Sports}/>
       </div>
       </Router>
       

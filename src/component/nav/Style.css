@@ -1,0 +1,33 @@
+.icon{
+
+    font-size:25px;
+    color:yellow;
+}
+
+brand-logo{
+font-size: large;
+
+}
+h1{
+
+color:yellow;
+} 
+.flex{
+    height: 200px;
+}
+.bg-company-red {
+    background-color: black !important;
+}
+.go{
+    width: 100%;
+    height: 10px;
+   
+   
+}
+.jumbotron {
+    background-image: url(/img/banner-2.jpg);
+    background-size: cover;
+     -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    height: 350px;}
