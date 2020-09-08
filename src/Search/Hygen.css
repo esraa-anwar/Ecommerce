@@ -1,0 +1,66 @@
+.footer-copyright{
+    margin-left: 600px;
+}
+.o{
+    margin-right:2000;
+
+}
+a:link, a:visited {
+
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+ 
+  }
+ 
+  a:hover {
+    color: cyan;
+  }
+  .benefit-items{
+    background:white;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-right: 200px;
+  }
+  .sb-icon{
+    margin-right: 150px;
+    float: left;
+	margin-right: 20px;
+  }
+  .col-lg-4{
+    padding-left: 100px;
+    padding-bottom: 30px;
+  border-bottom: solid ;
+  border-color:gainsboro;}
+  .benefit-items .single-benefit .sb-text {
+    display: table;
+  }
+  
+  .benefit-items .single-benefit .sb-text h6 {
+    color: #252525;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .benefit-items .single-benefit .sb-text p {
+    margin-bottom: 0;
+    color: #252525;
+    line-height: 20px;
+  }
+  .text-dark
+  {
+
+    text-justify:center;
+  }
+  footer{ 
+    
+   
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

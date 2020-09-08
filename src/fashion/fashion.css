@@ -8,10 +8,10 @@ padding: 10px;
 }
 .icon{
 
-  font-size:30px;
-  color : yellow;
+  font-size:20px;
+  color : black;
   stroke: black;
-  stroke-width: 30;
+  stroke-width: 3;
   border: black;
 }
 .card{

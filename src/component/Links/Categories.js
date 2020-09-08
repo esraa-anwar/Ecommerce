@@ -16,14 +16,14 @@ import './Css.css'
             <nav  className="nav.wrapper grey darken-1 " className="color"> 
             <div className="container " >
             <ul className="">
-            <li><NavLink className="link" to="/component/Links/All">All Categories</NavLink> </li>
-            <li><NavLink className="link" to="/fashion/Fashion">fashion</NavLink> </li>
-            <li> <NavLink className="link" to="/component/Links/Super">Supermarket</NavLink></li> 
-               <li><NavLink className="link" to="/mobile/Mobile">Mobile</NavLink> </li>
-               <li><NavLink className="link" to="/component/Links/Tv">Tv</NavLink> </li>
-               <li><NavLink className="link" to="/component/Links/Home">Home</NavLink> </li>
-              <li> <NavLink className="link" to="/Toys">Toys</NavLink> </li>
-               <li><NavLink className="link" to="/Sports">Sports</NavLink> </li> 
+            <li><a><NavLink className="bool" to="/component/Links/All">All Categories</NavLink></a> </li>
+            <li><NavLink className="bool" to="/fashion/Fashion">fashion</NavLink> </li>
+            <li> <NavLink className="bool" to="/component/Links/Super">Supermarket</NavLink></li> 
+               <li><NavLink className="bool" to="/mobile/Mobile">Mobile</NavLink> </li>
+               <li><NavLink className="bool" to="/component/Links/Tv">Tv</NavLink> </li>
+               <li><NavLink className="bool" to="/component/Links/Home">Home</NavLink> </li>
+              <li> <NavLink className="bool" to="/Toys">Toys</NavLink> </li>
+               <li><NavLink className="bool" to="/Sports">Sports</NavLink> </li> 
             </ul>
             </div>
             </nav>

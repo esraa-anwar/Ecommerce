@@ -1,27 +1,34 @@
 import React, { Component } from 'react'
-import"./Style.css"
-import{useEffect} from "react";
-//import ParticlesBg from 'particles-bg'
-//import {Animated} from "react-animated-css";
-import "../../customs.scss"
+import Img from './Img'
+const API_KEY = "18096186-ce8ecf86bb7a84384bfffa5c0"
 
-import ParticlesBg from 'particles-bg'
+
 class Pic extends Component {
+    state={
 
-  render () {
-   
-    return (<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-3">Yellow</h1>
-      <p class="lead">Enjoy Shopping</p>
-    </div>
-  </div>
-    )
-  }
+images:[]
+
+    }
+ handleGetRequest=async(e)=>{
+
+     const searchTerm=e.target.elements.searchValue.value
+     const url ='https://pixabay.com/api/?key=18096186-ce8ecf86bb7a84384bfffa5c0&q=&image_type=photo '
+
+     e.preventDefault()
+   const request = await fetch(url);
+   const response =await request.json()
+   this.setState({images:response.hits})
+   console.log(searchTerm)
+   console.log(this.state.images)
+
+ }
+    render() {
+        return (
+            <div className="">
+   <Img handleGetRequest={this.handleGetRequest}/>
+            </div>
+        )
+    }
 }
+
 export default Pic
-/* useEffect(() => {
-      Aos.init({duration:2000});
-      
-     }, []);
-    */ 

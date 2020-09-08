@@ -21,8 +21,8 @@ class Women extends Component {
             { Data.women.map((women,i) => { 
               return (
               
-              <section class="text-center mb-4">
-            <div class="row wow fadeIn">
+           <div className="container">
+            <div class="row">
             <div class="col-lg-3 col-md-3 mb-3">
                    <div className="card">
         
@@ -62,7 +62,7 @@ class Women extends Component {
               
                    </div>
              </div>
-                   </section>
+             </div>
  )})}
 
           </div>

@@ -1,7 +1,7 @@
 .icon{
 
     font-size:25px;
-    color:yellow;
+    color:black;
 }
 
 brand-logo{
@@ -10,13 +10,13 @@ font-size: large;
 }
 h1{
 
-color:yellow;
+color:black;
 } 
 .flex{
     height: 200px;
 }
 .bg-company-red {
-    background-color: black !important;
+    background-color: white !important;
 }
 .go{
     width: 100%;
@@ -25,9 +25,86 @@ color:yellow;
    
 }
 .jumbotron {
-    background-image: url(/img/banner-2.jpg);
-    background-size: cover;
+    background-image: url(/img/h.jpg);
+    background-size: contain;
+   
      -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
-    height: 350px;}
+    height: 550px;}
+    .id{
+width: 30%;
+
+
+    }
+ 
+    .formExample{margin: 0 auto;}
+    .navbar{
+
+height: 60px;
+
+    }
+    .navbar-nav{
+        position:relative;left:30%;float:left;margin-right:0;margin-left:0%;
+        }
+        
+        /* ADDED for centering navbar items */
+        .navbar .inner-nav li {
+        position:relative;right:50%;float:left;margin:0;list-style:none
+        }
+        .nav-link{
+
+            margin-right:10px;margin-left:10px;
+
+        }
+        .navbar-text{
+
+            margin-left:370px;
+
+        }
+        a.nav-link {color:#FFFFFF;}
+a.nav-link:hover {color:#F00F00; text-decoration:none;} 
+.btn {
+    color: cyan;
+    margin-left: 100px;
+}
+.btn-group{
+
+margin-left: 350px;
+
+}
+.lead{
+
+    margin-left: 100px;    
+}
+.display-5
+{
+
+margin-top: 20px;
+    margin-left: 100px;  
+}
+.btn:link, .btn:visited {
+background: cyan;
+    color:black;
+
+    text-align: center;
+    text-decoration: none;
+ 
+  }
+ 
+  .btn:hover {
+    color: darkcyan;
+  }
+  .btn-group:link, .btn-group:visited {
+    background: darkcyan;
+        color:black;
+    
+        text-align: center;
+        text-decoration: none;
+     
+      }
+     
+      .btn-group:hover {
+        color: darkcyan;
+        font-size: 150%;
+      }

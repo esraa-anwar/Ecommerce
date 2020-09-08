@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import Navba from './component/nav/Navba'
 import All from './component/Links/All'
@@ -20,8 +22,14 @@ import Iphone from './mobile/Iphone'
 import Oppo from './mobile/Oppo'
 import Sumsung from './mobile/Sumsung'
 import Pic from './component/nav/Pic'
+import"./App.css"
 import"./customs.scss"
+import Footer from './Search/Footer'
+import Search from './Search/Search'
+import Benifit from './Search/Benifit'
+import UnderB from './Product/UnderB'
  class App extends Component {
+
   render() {
     return (
       
@@ -29,7 +37,14 @@ import"./customs.scss"
       <div className="App">
       <Navba/>
     <Categories/>
-      <Pic/>
+    <Pic/>
+    <Benifit/>
+    <UnderB/>
+<Search/>
+
+
+      
+     
       <Route path="/fashion/Bags" component={Bags}/>
       <Route path="/fashion/Men" component={Men}/>
       <Route path="/mobile/Oppo" component={Oppo}/>
@@ -45,6 +60,7 @@ import"./customs.scss"
       <Route path="/component/links/Toys" component={Toys}/>
       <Route path="/component/links/Sports" component={Sports}/>
       </div>
+      <Footer/>
       </Router>
       
     )
